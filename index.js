@@ -10,9 +10,9 @@ class circle {
     return Math.PI*this.radius*2;
   }
   get area(){
-    return MATH.PI*this.radius**2
+    return MATH.PI*this.radius**2;
   }
   set diameter(){
-    return this.radius*2
+    return this.radius*2;
   }
 }
