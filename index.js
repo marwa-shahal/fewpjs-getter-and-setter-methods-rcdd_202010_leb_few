@@ -3,13 +3,16 @@ class circle {
   constructor (radius){
     this.radius=radius;
   }
-  set diameter(){
+  get diameter(){
      return this.radius*2;
   }
-  set circumference(){
+  get circumference(){
     return Math.PI*this.radius*2;
   }
   get area(){
     return MATH.PI*this.radius**2
+  }
+  set diameter(){
+    return this.radius*2
   }
 }
