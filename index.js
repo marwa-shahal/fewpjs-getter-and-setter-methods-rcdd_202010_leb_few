@@ -16,7 +16,7 @@ class circle {
   }
   
   set circumference(circumference){
-     this.radius=Math.Sqr circumference / Math.PI;
+     this.radius=Math.Sqrt circumference / Math.PI;
   } 
  
   get area(){
